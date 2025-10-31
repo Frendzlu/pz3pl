@@ -28,7 +28,9 @@ muszą zdobyć permit z `Semafor`a `queueAccessPermits`
 
 # Odpalanie
 Paczka wykonywalna znajduje sie w module main. 
+
 Budowanie: `mvn clean install -DskipTests`
+
 Odpalanie: `java -jar .\target\pz3pl-1.0-SNAPSHOT.jar czyUUID liczbaCzytelników liczbaPisarzy`
 - `czyUUID` - argument określający, czy nazwy czytelników mają być UUID, czy kolejnymi liczbami
 - `liczbaCzytelników` - argument określający, ilu czytelników ma wytworzyć `ReaderFactory`
